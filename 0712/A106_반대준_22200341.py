@@ -1,0 +1,1 @@
+for i in range(int(input())):print(sum(range(65,91))-sum(set(map(ord,input()))))
