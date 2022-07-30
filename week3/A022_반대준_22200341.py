@@ -12,9 +12,6 @@ def y(n):
     total += (n//30)*10+10
     return total
 
-
-
-
 n = int(input())
 calls = list(map(int,input().split()))
 total_y = 0

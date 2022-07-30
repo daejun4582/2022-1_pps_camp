@@ -1,5 +1,3 @@
-# n = int(input())
-
 def s(st):
     count=0
     for i in st:
@@ -8,13 +6,11 @@ def s(st):
            
     return count
      
-    
+n = int(input())
+data = []
 
-
-data = ['ABCD','145C','A','A910','Z321']
-# for i in range(n):
-#     data.append(input())
-
+for i in range(n):
+    data.append(input())
 
 data.sort()
 data.sort(key = lambda x: s(x))
